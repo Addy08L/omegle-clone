@@ -3,7 +3,8 @@ import { v4 as uuidv4 } from 'uuid';
 import { useChat } from './contextApi/ChatContext';
 
 // Replace this with your Railway WebSocket server URL
-const URL = "wss://qmegle-signaling.up.railway.app";
+const URL = "wss://qmegle-signaling-server-production.up.railway.app"; // Your Railway WebSocket URL
+
 
 export const socket = new WebSocket(URL);
 
